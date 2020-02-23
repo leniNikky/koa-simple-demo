@@ -7,6 +7,12 @@ node index.js
 ```
 在浏览器输入127.0.0.1:3000访问了
 
+安装完nodemon可以实现热更
+```
+npm run start
+```
+再次修改文件就不用重新执行运行命令了
+
 ## 各demo文件对应内容说明
 demo1: async和await的使用  
 demo2: get请求数据的接收  
@@ -19,3 +25,4 @@ demo8: Koa-router中间件 (3) 参数
 demo9: cookie的使用  
 demo10: ejs模板  
 demo11: koa-static静态资源中间件  
+
